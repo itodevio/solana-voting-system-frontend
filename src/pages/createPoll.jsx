@@ -88,7 +88,7 @@ function CreatePoll() {
               history.push(`/soll/${pollKey}`)
             }}
           >
-            Entrar na votação
+            Join Poll
           </button>
         </div>
       </div>
@@ -151,7 +151,7 @@ function CreatePoll() {
         }}
       >
         {
-          loading ? <Spinner /> : 'Criar'
+          loading ? <Spinner /> : 'Create'
         }
       </button>
     </div>
